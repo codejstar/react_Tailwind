@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <div>App</div>
+    <div className="h-screen w-full bg-gray-900 ">App</div>
   )
 }
 
