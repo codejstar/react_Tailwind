@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+#right::-webkit-scrollbar {
+  display: none;
+}
+
+/* #right {
+  position: relative;
+  animation-name: myAnimation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 10s;
+}
+
+@keyframes myAnimation {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+} */

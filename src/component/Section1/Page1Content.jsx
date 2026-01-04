@@ -2,11 +2,11 @@ import ImageContainer from "./ImageContainer"
 import LeftText from "./LeftText"
 
 
-const Page1Content = () => {
+const Page1Content = (props) => {
   return (
-    <div className="py-3  px-18 flex justify-between">
+    <div className="py-10  px-18 items-center h-[90vh]  flex gap-10">
     <LeftText />
-    <ImageContainer />
+    <ImageContainer users={props.users}/>
     </div>
   )
 }
